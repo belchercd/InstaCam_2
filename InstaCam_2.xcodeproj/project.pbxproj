@@ -3,20 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0C0F6E0B6897C91D0FDFDE13 /* libPods-InstaCam_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BDBDC82B97CE1CC429E5A6 /* libPods-InstaCam_2.a */; };
 		55C2FFB235DAC1F2E5D836F2 /* libPods-InstaCam_2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F061F35F7232AF4662098E7E /* libPods-InstaCam_2Tests.a */; };
 		830DA92C22DA7C2B009707F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DA92B22DA7C2B009707F6 /* AppDelegate.m */; };
-		830DA92F22DA7C2B009707F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DA92E22DA7C2B009707F6 /* ViewController.m */; };
 		830DA93222DA7C2B009707F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830DA93022DA7C2B009707F6 /* Main.storyboard */; };
 		830DA93422DA7C2B009707F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830DA93322DA7C2B009707F6 /* Assets.xcassets */; };
 		830DA93722DA7C2B009707F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830DA93522DA7C2B009707F6 /* LaunchScreen.storyboard */; };
 		830DA93A22DA7C2B009707F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DA93922DA7C2B009707F6 /* main.m */; };
 		830DA94422DA7C2B009707F6 /* InstaCam_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DA94322DA7C2B009707F6 /* InstaCam_2Tests.m */; };
 		830DA94F22DA7C2B009707F6 /* InstaCam_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DA94E22DA7C2B009707F6 /* InstaCam_2UITests.m */; };
+		830DA96122DA8D83009707F6 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DA96022DA8D83009707F6 /* Post.m */; };
+		830DA96422DA8DBE009707F6 /* InstaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DA96322DA8DBE009707F6 /* InstaCell.m */; };
+		830DA96722DA8DE4009707F6 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DA96622DA8DE4009707F6 /* ComposeViewController.m */; };
+		830DA96A22DA8E09009707F6 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DA96922DA8E09009707F6 /* DetailsViewController.m */; };
+		830DA96D22DA8E15009707F6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DA96C22DA8E15009707F6 /* HomeViewController.m */; };
+		830DA97022DA8E22009707F6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DA96F22DA8E22009707F6 /* LoginViewController.m */; };
+		830DA97322DA8E30009707F6 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DA97222DA8E30009707F6 /* RegisterViewController.m */; };
 		861594A6B48965419094C9D7 /* libPods-InstaCam_2UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6902D8F6874A767504C0F31 /* libPods-InstaCam_2UITests.a */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +49,6 @@
 		830DA92722DA7C2B009707F6 /* InstaCam_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCam_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		830DA92A22DA7C2B009707F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		830DA92B22DA7C2B009707F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		830DA92D22DA7C2B009707F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		830DA92E22DA7C2B009707F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		830DA93122DA7C2B009707F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		830DA93322DA7C2B009707F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		830DA93622DA7C2B009707F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +60,20 @@
 		830DA94A22DA7C2B009707F6 /* InstaCam_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaCam_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		830DA94E22DA7C2B009707F6 /* InstaCam_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaCam_2UITests.m; sourceTree = "<group>"; };
 		830DA95022DA7C2B009707F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830DA95F22DA8D83009707F6 /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		830DA96022DA8D83009707F6 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		830DA96222DA8DBE009707F6 /* InstaCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaCell.h; sourceTree = "<group>"; };
+		830DA96322DA8DBE009707F6 /* InstaCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaCell.m; sourceTree = "<group>"; };
+		830DA96522DA8DE4009707F6 /* ComposeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		830DA96622DA8DE4009707F6 /* ComposeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		830DA96822DA8E09009707F6 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		830DA96922DA8E09009707F6 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		830DA96B22DA8E15009707F6 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		830DA96C22DA8E15009707F6 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		830DA96E22DA8E22009707F6 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		830DA96F22DA8E22009707F6 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		830DA97122DA8E30009707F6 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		830DA97222DA8E30009707F6 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		A4BDBDC82B97CE1CC429E5A6 /* libPods-InstaCam_2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaCam_2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAD237C6F44A067EAF7139A /* Pods-InstaCam_2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCam_2Tests.debug.xcconfig"; path = "Target Support Files/Pods-InstaCam_2Tests/Pods-InstaCam_2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D10E6D75AF037CA2343CB94A /* Pods-InstaCam_2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCam_2UITests.debug.xcconfig"; path = "Target Support Files/Pods-InstaCam_2UITests/Pods-InstaCam_2UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,7 +131,6 @@
 				D10E6D75AF037CA2343CB94A /* Pods-InstaCam_2UITests.debug.xcconfig */,
 				2DD5C0327BFAD4073658B3C7 /* Pods-InstaCam_2UITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,10 +159,11 @@
 		830DA92922DA7C2B009707F6 /* InstaCam_2 */ = {
 			isa = PBXGroup;
 			children = (
+				830DA95E22DA8D39009707F6 /* View Controllers */,
+				830DA95D22DA8D32009707F6 /* Models */,
+				830DA95C22DA8CDD009707F6 /* Views */,
 				830DA92A22DA7C2B009707F6 /* AppDelegate.h */,
 				830DA92B22DA7C2B009707F6 /* AppDelegate.m */,
-				830DA92D22DA7C2B009707F6 /* ViewController.h */,
-				830DA92E22DA7C2B009707F6 /* ViewController.m */,
 				830DA93022DA7C2B009707F6 /* Main.storyboard */,
 				830DA93322DA7C2B009707F6 /* Assets.xcassets */,
 				830DA93522DA7C2B009707F6 /* LaunchScreen.storyboard */,
@@ -171,6 +189,41 @@
 				830DA95022DA7C2B009707F6 /* Info.plist */,
 			);
 			path = InstaCam_2UITests;
+			sourceTree = "<group>";
+		};
+		830DA95C22DA8CDD009707F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				830DA96222DA8DBE009707F6 /* InstaCell.h */,
+				830DA96322DA8DBE009707F6 /* InstaCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		830DA95D22DA8D32009707F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				830DA95F22DA8D83009707F6 /* Post.h */,
+				830DA96022DA8D83009707F6 /* Post.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		830DA95E22DA8D39009707F6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				830DA96522DA8DE4009707F6 /* ComposeViewController.h */,
+				830DA96622DA8DE4009707F6 /* ComposeViewController.m */,
+				830DA96822DA8E09009707F6 /* DetailsViewController.h */,
+				830DA96922DA8E09009707F6 /* DetailsViewController.m */,
+				830DA96B22DA8E15009707F6 /* HomeViewController.h */,
+				830DA96C22DA8E15009707F6 /* HomeViewController.m */,
+				830DA96E22DA8E22009707F6 /* LoginViewController.h */,
+				830DA96F22DA8E22009707F6 /* LoginViewController.m */,
+				830DA97122DA8E30009707F6 /* RegisterViewController.h */,
+				830DA97222DA8E30009707F6 /* RegisterViewController.m */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,9 +446,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830DA92F22DA7C2B009707F6 /* ViewController.m in Sources */,
+				830DA96422DA8DBE009707F6 /* InstaCell.m in Sources */,
 				830DA93A22DA7C2B009707F6 /* main.m in Sources */,
+				830DA96722DA8DE4009707F6 /* ComposeViewController.m in Sources */,
+				830DA96A22DA8E09009707F6 /* DetailsViewController.m in Sources */,
+				830DA97322DA8E30009707F6 /* RegisterViewController.m in Sources */,
+				830DA97022DA8E22009707F6 /* LoginViewController.m in Sources */,
 				830DA92C22DA7C2B009707F6 /* AppDelegate.m in Sources */,
+				830DA96122DA8D83009707F6 /* Post.m in Sources */,
+				830DA96D22DA8E15009707F6 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
