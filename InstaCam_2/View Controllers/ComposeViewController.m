@@ -32,8 +32,6 @@
     
     self.photoView.image = self.editedImage;
     
-    //resize the image before it gets posted
-    [self resizeImage:self.editedImage withSize:CGSizeMake(50.0, 50.0)];
     
     
     // Dismiss UIImagePickerController to go back to your original view controller
@@ -67,6 +65,9 @@
         NSLog(@"Camera 🚫 available so we will use photo library instead");
         imagePickerVC.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
     }
+    
+    //resize the image before it gets posted
+    [self resizeImage:self.editedImage withSize:CGSizeMake(50.0, 50.0)];
     
     [self presentViewController:imagePickerVC animated:YES completion:nil];
     

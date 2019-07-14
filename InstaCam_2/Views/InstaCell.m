@@ -23,7 +23,7 @@
 }
 
 
-//- (IBAction)didTapLike:(id)sender {
+- (IBAction)didTapLike:(id)sender {
 //    //    if ([sender isSelected]) {
 //    //        [sender setImage:@"favor-icon" forState:UIControlStateNormal];
 //    //        [sender setSelected:NO];
@@ -35,5 +35,5 @@
 //    //
 //    //    }
 //    
-//}
+}
 @end

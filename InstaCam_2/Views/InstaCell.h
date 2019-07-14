@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) IBOutlet UIImageView *photoView;
 @property (strong, nonatomic) IBOutlet UILabel *captionLabel;
 
-//- (IBAction)didTapLike:(id)sender;
+- (IBAction)didTapLike:(id)sender;
 
 
 @end
