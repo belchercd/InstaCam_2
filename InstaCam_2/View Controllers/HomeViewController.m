@@ -120,7 +120,7 @@
     NSURL *instaPictureURL = [NSURL URLWithString:image.url];
     [cell.imageView setImageWithURL: instaPictureURL];
     
-    return cell;
+    return cell; 
 }
 
 
